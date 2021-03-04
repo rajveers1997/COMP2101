@@ -44,10 +44,9 @@ trap cleanup
 
 #This function produces the network configuration for our report
 function getipinfo {
-  # reuse our netid.sh script from lab 4
+  # reuse our netid.sh script from lab 4.
   ./netid.sh
 }
-
 # process command line options
 partialreport=
 while [ $# -gt 0 ]; do
