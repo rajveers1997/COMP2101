@@ -45,11 +45,7 @@ trap cleanup
 #This function produces the network configuration for our report
 function getipinfo {
   # reuse our netid.sh script from lab 4
-<<<<<<< HEAD
   ./netid.sh
-=======
-  ~/netid.sh
->>>>>>> fb053a809a80fd46e476da443774286bca85c46d
 }
 
 # process command line options
